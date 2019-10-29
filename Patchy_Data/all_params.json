@@ -1,0 +1,50 @@
+{
+  "batch_dict" :    {                  
+    "Ks" : [3.0] ,
+    "p" : [1,21,2]
+    },
+  "sim_dict" : { 
+    "grad_fV" :[0.1,0.3],       
+    "nrow" : [10,101,10]
+    },
+  "common_dict" : {      
+            "scheme" : "mann",
+            "seed": 2,
+            "imodel" : "richards",            
+            "vegtype" : "randv",     
+            "topo" : "plane", 
+            "H_i" : 0.0,            
+            "tr" : 50, 
+            "So" : 0.01,
+            "fV" : 0.5,
+            "sigma" : 1,   
+            "sigma_scale" : 1,        
+            "soil" : "Lev",                                            
+            "ncol" : 50,             
+            "dx" : 1.0,             
+            "epsh" : 2e-4, 
+            "alpha" : 0.1,           
+            "tmax_scale" : 1,                                                    
+            "itype1" : 0,
+            "itype3" : 1,
+            "itype2" : 1,
+            "itype4" : 1,
+            "drainBC" : "free",                         
+            "stop_tol"  : 1e-2,             
+            "ponding" : 1,             
+            "dz" : 1.0,
+            "zseal" : 20.0,
+            "s_scale" : 100,    
+            "print_count" : 3,                            
+            "dt_r" : 2.0, 
+            "zmax" : 20,                                        
+            "dt_sw" : 0.001,            
+            "isweed_theta" : 1,                
+            "isweed_flux" : 0,
+            "save_sve" : 1,
+            "tsat_min" : 0,
+            "match_alpha" : 0,
+            "L_range": 1 ,
+            "p_range": 1        
+         }
+}
