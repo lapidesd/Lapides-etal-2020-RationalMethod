@@ -15,13 +15,8 @@ This repository includes:
   - Curved_Hillslope_Rational_Method_Optimization.ipynb:
 a python program that takes a user-defined IFD curve of the form I = k1/(D^b1+k2)^b2 (Koutsoyiannis et al., 1998) and runs an optimization for peak flow for hillslopes of different curvatures. Hillslope width functions are given by w=ce^(ax), following Lapides et al., 2020a. A full description of the solutions used to calculate time of concentration and contributing area is found in Lapides et al. (2020a) and a program for calculating hydrographs on curved hillslopes is available at https://github.com/lapidesd/Hillslope_Storage_Kinematic_Wave. Full description of the optimization process is included in Lapides et al. (2020b).
 
-  - Data from numerical simulations in folders beginning with Ks:
-data were collected by running numerical rainfall-runoff simulations as described in Crompton et al., YEAR. Two different patchy landscapes are included, one with patchiness more skewed toward downslope than the other. A grid of intensity-duration values were used for different storms, and each storm was run on subsections of the patchy landscapes in order to identify travel times from different points in the landscape. These data could then be used to construct area-duration curves.
-
-  - all_params.json:
-parameters used for numerical simulations.
-
-  - Patchy_Optimization.ipynb:
+  - Patchy_Data:
+folder containing data were collected by running numerical rainfall-runoff simulations as described in Crompton et al., 2019. Two different patchy landscapes are included, one with patchiness more skewed toward downslope than the other. A grid of intensity-duration values were used for different storms, and each storm was run on subsections of the patchy landscapes in order to identify travel times from different points in the landscape. These data could then be used to construct area-duration curves. In this folder is Patchy_Optimization.ipynb:
 a python program that visualizes data from patchy hillslope numerical simulations. Included in this program is a block, which runs an optimization for peak flow from a user-defined IFD curve. A full description of the optimization is available in Lapides et al. (2020b).
 
 For beginners to Python and jupyter notebook:
