@@ -13,7 +13,7 @@ Dana Lapides [1], Anneliese Sytsma [2], Octavia Crompton [3], and Sally Thompson
 This repository includes: 
 
   - Curved_Hillslope_Rational_Method_Optimization.ipynb:
-a python program that takes a user-defined IFD curve of the form I = k1/(D^b1+k2)^b2 (Koutsoyiannis et al., 1998) and runs an optimization for peak flow for hillslopes of different curvatures. Hillslope width functions are given by w=ce^(ax), following Lapides et al., 2020a. A full description of the solutions used to calculate time of concentration and contributing area is found in Lapides et al. (2020a) and a program for calculating hydrographs on curved hillslopes is available at https://github.com/lapidesd/Hillslope_Storage_Kinematic_Wave. Full description of the optimization process is included in Lapides et al. (2020b).
+a python program that takes a user-defined IFD curve of the form $I = k_1/(D^b_1+k_2)^{b_2}$ (Koutsoyiannis et al., 1998) and runs an optimization for peak flow for hillslopes of different curvatures. Hillslope width functions are given by $w=ce^{ax}$, following Lapides et al., 2020a. A full description of the solutions used to calculate time of concentration and contributing area is found in Lapides et al. (2020a) and a program for calculating hydrographs on curved hillslopes is available at https://github.com/lapidesd/Hillslope_Storage_Kinematic_Wave. Full description of the optimization process is included in Lapides et al. (2020b).
 
   - Patchy_Data:
 folder containing data were collected by running numerical rainfall-runoff simulations as described in Crompton et al., 2019. Two different patchy landscapes are included, one with patchiness more skewed toward downslope than the other. A grid of intensity-duration values were used for different storms, and each storm was run on subsections of the patchy landscapes in order to identify travel times from different points in the landscape. These data could then be used to construct area-duration curves. In this folder is Patchy_Optimization.ipynb:
@@ -25,7 +25,7 @@ In each of the two jupyter notebook simulations, the code is broken down into bl
 
 REFERENCES:
 
-Crompton, O., Sytsma, A., and Thompson, S. (2019). “Emulation of the Saint Venant Equations645Enables Rapid and Accurate Predictions of Infiltration and Overland Flow Velocity on Spatially Heterogeneous Surfaces.” Water Resources Research.
+Crompton, O., Sytsma, A., and Thompson, S. (2019). “Emulation of the Saint Venant Equations Enables Rapid and Accurate Predictions of Infiltration and Overland Flow Velocity on Spatially Heterogeneous Surfaces.” Water Resources Research.
 
 Koutsoyiannis, D., Kozonis, D., and Manetas, A. (1998). “A mathematical framework for studying rainfall intensity-duration-frequency relationships.”Journal of Hydrology, 206, 118–135.
 
