@@ -10,7 +10,49 @@ Dana Lapides [1], Anneliese Sytsma [2], Octavia Crompton [3], and Sally Thompson
 
 [4] Department of Environmental Engineering, University of Western Australia
 
-This repository includes: 
+File Location Tree:
+<pre>
+|Lapides-etal-2020-RationalMethod
+
+|--README.md
+
+|-- Patchy_Optimization.ipynb
+
+|-- Curved_Hillslope_Rational_Method_Optimization.ipynb
+
+|-- Patchy_Data
+
+|      |-- all_params.json
+    
+|      |-- results.csv
+    
+|      |-- tree_dict.json
+    
+|      |-- plot_functions.pyc
+    
+|      |-- ipynb_help.pyc
+    
+|      |-- Ks-3.0,p-1.zip
+    
+|      |-- Ks-3.0,p-3.zip
+    
+|      |-- Ks-3.0,p-5.zip
+    
+|      |-- Ks-3.0,p-7.zip
+    
+|      |-- Ks-3.0,p-9.zip
+    
+|      |-- Ks-3.0,p-11.zip
+    
+|      |-- Ks-3.0,p-13.zip
+    
+|      |-- Ks-3.0,p-15.zip
+    
+|      |-- Ks-3.0,p-17.zip
+    
+|      |-- Ks-3.0,p-19.zip
+</pre>
+Summary of Files: 
 
   - Curved_Hillslope_Rational_Method_Optimization.ipynb:
 a python program that takes a user-defined IFD curve of the form ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20I%20%3D%20k_1/%28D%5Eb_1&plus;k_2%29%5E%7Bb_2%7D) (Koutsoyiannis et al., 1998) and runs an optimization for peak flow for hillslopes of different curvatures. Hillslope width functions are given by ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20w%3Dce%5E%7Bax%7D), following Lapides et al., 2020a. A full description of the solutions used to calculate time of concentration and contributing area is found in Lapides et al. (2020a) and a program for calculating hydrographs on curved hillslopes is available at https://github.com/lapidesd/Hillslope_Storage_Kinematic_Wave. Full description of the optimization process is included in Lapides et al. (2020b).
