@@ -10,6 +10,8 @@ Dana Lapides [1], Anneliese Sytsma [2], Octavia Crompton [3], and Sally Thompson
 
 [4] Department of Environmental Engineering, University of Western Australia
 
+[![DOI](https://zenodo.org/badge/218192994.svg)](https://zenodo.org/badge/latestdoi/218192994)
+
 File Location Tree:
 <pre>
 |Lapides-etal-2020-RationalMethod
